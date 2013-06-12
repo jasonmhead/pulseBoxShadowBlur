@@ -1,12 +1,6 @@
 var pulseBoxShadowBlurCounter = 0;
 var pulseBoxShadowBlurDirection;
 
-$(document).ready(function() { // dom binds
-
-pulseBoxShadowBlur($('#getData-btn'),14,'#fff',100); // start the process
-
-});
-
 function pulseBoxShadowBlur(pulseElement,max,color,delayTime){
 var cssInput = '0px 0px '+pulseBoxShadowBlurCounter+'px '+color;
 $(pulseElement).css('box-shadow', cssInput);
