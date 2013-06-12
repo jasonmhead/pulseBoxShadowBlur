@@ -1,5 +1,8 @@
 pulseBoxShadowBlur
 ==================
+Dependency:
+JQuery
+
 Usage:
 pulseBoxShadowBlur([pulseElement],[max blur],[blur color],[delay time between loops]);
 e.g. pulseBoxShadowBlur($('#getData-btn'),14,'#fff',100); // start the process
