@@ -12,3 +12,4 @@ ToDo:
 - Structural cleanup
   -- eliminate global variable use
   -- turn into JQuery plugin
+ 
